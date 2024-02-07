@@ -23,5 +23,15 @@ namespace DevFolio.Controllers
         {
             return PartialView();
         }
+
+        public PartialViewResult NavbarPartial()
+        {
+            return PartialView();
+        }
+
+        public PartialViewResult ScriptPartial()
+        {
+            return PartialView();
+        }
     }
 }
