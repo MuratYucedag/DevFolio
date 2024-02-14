@@ -12,6 +12,7 @@ namespace DevFolio.Controllers
         DbDevFolioEntities db = new DbDevFolioEntities();
         public ActionResult Index()
         {
+            //deger=>deger. Linq
             ViewBag.categoryCount = db.TblCategory.Count();
             ViewBag.projectCount = db.TblProject.Count();
             ViewBag.skillCount = db.TblSkill.Count();
